@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Saya</title>
-    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header class="one">
@@ -24,27 +24,29 @@
             <table>
                 <tr>
                     <th>Nama</th>
-                    <td>Rika Relitaa</td>
+                    <td id="name">Rika Relitaa</td>
                 </tr>
                 <tr>
                     <th>Tempat Lahir</th>
-                    <td>Bantul</td>
+                    <td id="place">Bantul</td>
                 </tr>
                 <tr>
                     <th>Universitas</th>
-                    <td>Universitas Nahdlatul Ulama Yogyakarta</td>
+                    <td id="university">Universitas Nahdlatul Ulama Yogyakarta</td>
                 </tr>
                 <tr>
                     <th>Prodi</th>
-                    <td>Informatika</td>
+                    <td id="prodi">Informatika</td>
                 </tr>
                 <tr>
                     <th>Path</th>
-                    <td>Cloud Computing</td>
+                    <td id="path">Cloud Computing</td>
                 </tr>
             </table>
         </section>
     </article>
+
+    <script src="main.js"></script>
 
 </body>
 </html>
