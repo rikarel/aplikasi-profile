@@ -4,9 +4,9 @@ handlers:
   - url: /styles
     static_dir: styles
 
-  - url: /images/(.*\.(https://storage.cloud.google.com/astral-net-382216.appspot.com/myfoto.jpeg?authuser=2))
+  - url: /images/(.*\.(https://storage.cloud.google.com/astral-net-382216.appspot.com/myfoto.jpeg))
     static_files: images/\1
-    upload: /images/(.*\.(https://storage.cloud.google.com/astral-net-382216.appspot.com/myfoto.jpeg?authuser=2))
+    upload: /images/(.*\.(https://storage.cloud.google.com/astral-net-382216.appspot.com/myfoto.jpeg))
 
   - url: /.*
     script: index.php
