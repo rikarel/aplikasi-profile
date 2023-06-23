@@ -16,7 +16,7 @@
         <header class="two">
             <h2>About Me</h2>
             <figure>
-                <img src="https://storage.cloud.google.com/project-rikarelita-567890/myfoto.jpeg" height="300px" width="300px">
+                <img src="https://storage.googleapis.com/astral-net-382216.appspot.com/myfoto.jpeg" height="300px" width="300px">
             </figure>
         </header>
 
